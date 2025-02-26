@@ -4,8 +4,16 @@
 
 ## 시작하기
 
-```bash
+다음 명령을 사용해 Next.js 프로젝트를 시작할 수 있습니다.
 
+```bash
+pnpm create next-app -e "https://github.com/yamoo9/create-next-app" <project-name>
+```
+
+또는 degit 명령을 사용해 프로젝트를 로컬 드라이브로 복제할 수 있습니다.
+
+```bash
+npx degit yamoo9/create-next-app
 ```
 
 Next.js 앱 개발 서버를 구동하는 명령을 터미널에서 실행합니다.
