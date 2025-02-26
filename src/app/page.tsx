@@ -1,7 +1,9 @@
-export default function Home() {
+function HomePage() {
   return (
     <main>
-      <div>Hello world!</div>
+      <div>안녕! Next.js 🎩</div>
     </main>
-  );
+  )
 }
+
+export default HomePage
