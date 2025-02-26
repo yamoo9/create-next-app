@@ -11,7 +11,10 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "src/**/*.{ts,tsx}": [
+      "pnpm lint",
+      "pnpm format"
+    ]
   },
   "dependencies": {
     "next": "15.1.7",
