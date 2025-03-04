@@ -141,7 +141,7 @@
     "javascriptreact": "html",
     "plaintext": "html"
   },
-  "tailwindCSS.experimental.configFile": "./tailwind.config.js",
+  "tailwindCSS.experimental.configFile": "./src/styles/globals.css",
   "tailwind-fold.foldStyle": "QUOTES",
   "tailwind-fold.unfoldIfLineSelected": true,
   "tailwind-fold.unfoldedTextOpacity": 0.9,
